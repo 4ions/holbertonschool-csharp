@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/lion/.dotnet/store/|arch|/|tfm|",
-      "/home/lion/.nuget/packages"
-    ]
-  }
-}
