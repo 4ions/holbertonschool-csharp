@@ -6,7 +6,6 @@ class Program
     {
         Random rndm = new Random();
         int number = rndm.Next(-10000, 10000);
-        string info = "The last digit of";
         int lastDigit = number % 10;
         
         if (lastDigit < 6 && lastDigit != 0){
