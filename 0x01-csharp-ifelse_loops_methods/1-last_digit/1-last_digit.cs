@@ -1,5 +1,4 @@
-﻿  
-using System;
+﻿using System;
 
 class Program
 {
@@ -11,13 +10,13 @@ class Program
         int lastDigit = number % 10;
         
         if (lastDigit < 6 && lastDigit != 0){
-            Console.WriteLine("{0} {1} is {2} and is less that 6 and not 0", info, number, lastDigit);
+            Console.WriteLine($"{info} {number} is {lastDigit} and is less that 6 and not 0");
         }
         else if (lastDigit > 5){
-            Console.WriteLine("{0} {1} is {2} and is greater that 5", info, number, lastDigit);
+            Console.WriteLine($"{info} {number} is {lastDigit} and is greater that 5");
         }
         else if (lastDigit == 0){
-            Console.WriteLine("{0} {1} is {2} and is 0", info, number, lastDigit);
+            Console.WriteLine($"{info} {number} is {lastDigit} and is 0");
         }
     }
 }
