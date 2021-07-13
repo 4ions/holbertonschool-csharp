@@ -8,7 +8,7 @@ namespace _3_print_alphabt
         {
             for (char i = 'a'; i <= 'z'; i++)
             {
-                if (i != 'q' || i != 'e'){
+                if (i != 'q' && i != 'e'){
                     Console.Write(i);
                 }
             }
