@@ -7,7 +7,7 @@ namespace _5_print_comb
         static void Main(string[] args)
         {
             int number;
-            for (int i = 1; i <= 99; i++)
+            for (int i = 0; i <= 99; i++)
             {
                 number = i / 10;
                 if (i < 99)
