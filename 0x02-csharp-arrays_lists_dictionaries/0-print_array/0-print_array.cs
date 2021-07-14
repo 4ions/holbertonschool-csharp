@@ -17,8 +17,12 @@ namespace _0_print_array
             int[] newArray = new int[size];
 
             for (int i = 0; i < size; i++){
-                Console.Write($"{i} ");
                 newArray[i] = i;
+                if (i != size -1)
+                    Console.Write($"{i} ");
+                else
+                    Console.Write(i);
+                
             }
             Console.WriteLine();
             return newArray;
