@@ -8,15 +8,9 @@ class Array
             Console.WriteLine("");
             return;
         }
-        for (int i = array.Length - 1; i >= 0; i--){
-            
-            if (i == 0){
-                Console.WriteLine(i);
-            }else {
-                Console.Write($"{array[i]} ");
-            }
-
-            
+        for (int i = array.Length - 1; i > 0; i--){
+            Console.Write($"{array[i]} ");
         }
+        Console.WriteLine(array[0]);
     }
 }
