@@ -7,7 +7,7 @@ class LList
             return 0;
         }
 
-        int value = myLList.Value.First;
+        int value = myLList.First.Value;
         myLList.RemoveFirst();
         return value;
 
