@@ -9,7 +9,7 @@ namespace Enemies{
         public int health;
 
         ///<summary> private string name </summary>
-        private string name = "(No Name)";
+        private string name = "(No name)";
         ///<summary> public constructor: public Zombie() Initializes in 0 </summary>
         public Zombie(){
             health = 0;
