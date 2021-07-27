@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary> public class zombie</summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary> public variable health </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary> public constructor: public Zombie() Initializes in 0 </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary> public constructor: public Zombie that recives value to set in health</summary>
+        </member>
+    </members>
+</doc>
