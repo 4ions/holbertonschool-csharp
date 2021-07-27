@@ -1,0 +1,1 @@
+# Csharp strucs enums
