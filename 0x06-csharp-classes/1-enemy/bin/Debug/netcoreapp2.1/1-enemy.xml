@@ -7,6 +7,9 @@
         <member name="T:Enemies.Zombie">
             <summary> public class zombie</summary>
         </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary> public variable health </summary>
+        </member>
         <member name="M:Enemies.Zombie.#ctor">
             <summary> public constructor: public Zombie() Initializes in 0 </summary>
         </member>
