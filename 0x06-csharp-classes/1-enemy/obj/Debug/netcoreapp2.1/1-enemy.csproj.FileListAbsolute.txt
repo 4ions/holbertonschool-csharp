@@ -10,3 +10,4 @@ C:\Users\Leovalsan\holbertonschool-csharp\0x06-csharp-classes\1-enemy\bin\Debug\
 C:\Users\Leovalsan\holbertonschool-csharp\0x06-csharp-classes\1-enemy\obj\Debug\netcoreapp2.1\1-enemy.dll
 C:\Users\Leovalsan\holbertonschool-csharp\0x06-csharp-classes\1-enemy\obj\Debug\netcoreapp2.1\1-enemy.pdb
 C:\Users\Leovalsan\holbertonschool-csharp\0x06-csharp-classes\1-enemy\obj\Debug\netcoreapp2.1\1-enemy.genruntimeconfig.cache
+C:\Users\Leovalsan\holbertonschool-csharp\0x06-csharp-classes\1-enemy\bin\Debug\netcoreapp2.1\1-enemy.xml

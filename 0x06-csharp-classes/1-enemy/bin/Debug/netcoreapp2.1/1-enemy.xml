@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary> public class zombie</summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary> public constructor: public Zombie() Initializes in 0 </summary>
+        </member>
+    </members>
+</doc>
