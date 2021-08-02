@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>7-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> Class Shape </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> Throw an error </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> Class rectangle that inherits from Shape </summary>
+        </member>
+        <member name="F:Rectangle.width">
+            <summary> Private int width </summary>
+        </member>
+        <member name="F:Rectangle.height">
+            <summary> Private int height </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> Public property int Width </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> Public property int Height </summary>
+        </member>
+    </members>
+</doc>
