@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>8-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> Class Shape </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> Throw an error </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> Class rectangle that inherits from Shape </summary>
+        </member>
+        <member name="F:Rectangle.width">
+            <summary> Private int width </summary>
+        </member>
+        <member name="F:Rectangle.height">
+            <summary> Private int height </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> Public property int Width </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> Public property int Height </summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary> override the Area method defined int Shape </summary>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary>Override string ToString method </summary>
+        </member>
+        <member name="T:Square">
+            <summary> Class Square that inherits from Rectangle </summary>
+        </member>
+        <member name="F:Square.size">
+            <summary> Private int size </summary>
+        </member>
+        <member name="P:Square.Size">
+            <summary> public method to asing size </summary>
+        </member>
+    </members>
+</doc>
