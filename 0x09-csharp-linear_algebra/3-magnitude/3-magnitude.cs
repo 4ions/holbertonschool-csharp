@@ -10,10 +10,10 @@ class VectorMath
         if (size == 2 || size == 3){
             foreach (int i in vector)
             {
-                result += Math.Pow(i, 2);
+                result += i * i;
             }
 
-            result = Math.Sqrt(result);
+            result = Math.Round(Math.Sqrt(result));
         }
         
 
