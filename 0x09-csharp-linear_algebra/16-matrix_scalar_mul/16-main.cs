@@ -7,13 +7,7 @@ class Program{
 
         double[,] result = new double[3,3];
         result = MatrixMath.MultiplyScalar(matrix, scalar);
-        for (int i = 0; i < 3; i++)
-        {
-            for (int j = 0; j < 3; j++)
-            {
-                System.Console.Write(result[i, j]);
-            }
-            System.Console.WriteLine();
-        }
+        System.Console.WriteLine(result.GetLength(0));
+        
     }
 }
