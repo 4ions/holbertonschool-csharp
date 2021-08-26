@@ -16,7 +16,7 @@ class MatrixMath
             }
         }
         else {
-            double[,] error = new double[,] {{-1},{-1}};
+            double[,] error = new double[,] {{-1}};
             return error;
         }
 
