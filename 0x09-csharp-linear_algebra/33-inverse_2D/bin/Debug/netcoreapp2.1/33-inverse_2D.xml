@@ -5,10 +5,10 @@
     </assembly>
     <members>
         <member name="T:MatrixMath">
-            /// <summary>Class matrix</summary>
+            <summary>Algebraic operations on matricies.</summary>
         </member>
-        <member name="M:MatrixMath.Inverse(System.Double[0:,0:])">
-            <summary>Inverse a matrix</summary>
+        <member name="M:MatrixMath.Inverse2D(System.Double[0:,0:])">
+            <summary>Inverse of a matrix.</summary>
         </member>
     </members>
 </doc>

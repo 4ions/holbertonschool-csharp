@@ -1,36 +1,27 @@
-﻿using System;
-//I was lazy SOrry jajajaajajaj  There is an error in the main holbi
-/// /// <summary>Class matrix</summary>
+﻿  
+using System;
+using System.Collections.Generic;
+
+///<summary>Algebraic operations on matricies.</summary>
 class MatrixMath
 {
-    /// <summary>Inverse a matrix</summary>
-    public static double[,] Inverse(double[,] matrix)
+    ///<summary>Inverse of a matrix.</summary>
+    public static double[,] Inverse2D(double[,] matrix)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-        double[,] MT = {{-1}};
-        
+        double[,] bad = new double[,] {{-1}};
+        double det;
 
-        if (rows != 2)
-            return MT;
-        else
+        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
         {
-            if (matrix[0, 0] == 7)
-            {
-                double[,] matrix1 = { {0.15, -0.08}, {0.03, -0.18 } };
-                return matrix1;
-            }
-            if (matrix[0, 0] == 2)
-            {
-                double[,] matrix1 = { {0.5, 0},{-0.67, -0.17} };
-                return matrix1;
-            }
-            if (matrix[0, 0] == 3)
-            {
-                double[,] matrix1 =  { { 3, -3 }, { 1, -1 } };
-                return MT;
-            }
+            det = (matrix[0, 0] * matrix[1, 1]) - (matrix[0, 1] * matrix[1, 0]);
+            if (det == 0)
+                return (bad);
+            double[,] inverse = new double[,] {
+                {(1 / det) * matrix[1, 1], (1 / det) * -matrix[0, 1]},
+                {(1 / det) * -matrix[1, 0], (1 / det) * matrix[0, 0]}
+            };
+            return (inverse);
         }
-        return MT;
+        return (bad);
     }
 }

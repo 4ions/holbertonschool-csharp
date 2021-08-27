@@ -7,7 +7,7 @@ class Program
         double[,] matrix = { { 7, -3 }, { 1, -6 } };
         double[,] result;
 
-        result = MatrixMath.Inverse(matrix);
+        result = MatrixMath.Inverse2D(matrix);
 
         for (int i = 0; i < result.GetLength(0); i++)
         {
