@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-user_interface</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>Base class.</summary>
+        </member>
+        <member name="F:Base.name">
+            <summary>Name of instance.</summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>String override.</summary>
+        </member>
+    </members>
+</doc>
