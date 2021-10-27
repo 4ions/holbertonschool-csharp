@@ -2,6 +2,28 @@ using System;
 // <summary>
 /// Ineterface Interactive
 /// </summary>
+
+public abstract class Base
+{
+    /// <summary>
+    /// Name property
+    /// </summary>
+    /// <value>string value</value>
+    private string name {
+        get;
+        set;
+    }
+    /// <summary>
+    /// Override tostring() method
+    /// </summary>
+    /// <returns>string</returns>
+
+    public override string ToString()
+    {
+        return ($"{this.name} is a {this.GetType()}");
+    }
+}
+
 interface IInteractive
 {
     void Interact();
