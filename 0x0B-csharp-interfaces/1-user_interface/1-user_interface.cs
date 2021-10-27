@@ -49,9 +49,18 @@ interface ICollectable
 /// </summary>
 class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
+    /// <summary>
+    /// durability property
+    /// </summary>
+    /// <value>int value</value>
     public int durability { get; set; }
+    
+    /// <summary>
+    /// isCollected
+    /// </summary>
+    /// <value>bool value</value>
     public bool isCollected { get; set; }
-    public string name { get; set; }
+
     /// <summary>
     /// Interact inmplementation
     /// </summary>
