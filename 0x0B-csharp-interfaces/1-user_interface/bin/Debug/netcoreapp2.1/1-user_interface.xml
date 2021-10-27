@@ -48,6 +48,12 @@
             </summary>
             <value>bool value</value>
         </member>
+        <member name="P:TestObject.name">
+            <summary>
+            Name
+            </summary>
+            <value>string value</value>
+        </member>
         <member name="M:TestObject.Interact">
             <summary>
             Interact inmplementation
