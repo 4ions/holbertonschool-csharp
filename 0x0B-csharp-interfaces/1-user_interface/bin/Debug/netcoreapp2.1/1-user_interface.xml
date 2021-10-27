@@ -5,15 +5,22 @@
     </assembly>
     <members>
         <member name="T:Base">
-            <summary>Base class.</summary>
+            <summary>
+            Ineterface Interactive
+            </summary>
         </member>
-        <member name="F:Base.name">
-            <summary>Name of instance.</summary>
+        <member name="P:Base.name">
+            <summary>
+            Name property
+            </summary>
+            <value>string value</value>
         </member>
         <member name="M:Base.ToString">
-            <summary>String override.</summary>
+            <summary>
+            Override tostring() method
+            </summary>
+            <returns>string</returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:IInteractive" -->
         <member name="T:IBreakable">
             <summary>
             Interface IBreakable
@@ -29,6 +36,18 @@
             Test object class
             </summary>
         </member>
+        <member name="P:TestObject.durability">
+            <summary>
+            durability property
+            </summary>
+            <value>int value</value>
+        </member>
+        <member name="P:TestObject.isCollected">
+            <summary>
+            isCollected
+            </summary>
+            <value>bool value</value>
+        </member>
         <member name="M:TestObject.Interact">
             <summary>
             Interact inmplementation
@@ -39,6 +58,11 @@
             Break implementation
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:TestObject.Collect" -->
+        <member name="M:TestObject.Collect">
+            <summary>
+            isCollected
+            </summary>
+            <value>bool value</value>
+        </member>
     </members>
 </doc>

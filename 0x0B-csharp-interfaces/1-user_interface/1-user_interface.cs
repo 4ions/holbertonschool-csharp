@@ -1,8 +1,8 @@
 using System;
-// <summary>
+
+/// <summary>
 /// Ineterface Interactive
 /// </summary>
-
 public abstract class Base
 {
     /// <summary>
@@ -54,7 +54,7 @@ class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// </summary>
     /// <value>int value</value>
     public int durability { get; set; }
-    
+
     /// <summary>
     /// isCollected
     /// </summary>
@@ -75,7 +75,7 @@ class TestObject : Base, IInteractive, IBreakable, ICollectable
     {
 
     }
-    // <summary>
+    /// <summary>
     /// isCollected
     /// </summary>
     /// <value>bool value</value>
