@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-damage_delegation</name>
+    </assembly>
+    <members>
+        <member name="T:Player">
+            <summary>Player class</summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single)">
+            <summary>Constructor for Player class.</summary>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>Prints Player health.</summary>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>Calculates Player damage.</summary>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>Calculates Player healing.</summary>
+        </member>
+    </members>
+</doc>

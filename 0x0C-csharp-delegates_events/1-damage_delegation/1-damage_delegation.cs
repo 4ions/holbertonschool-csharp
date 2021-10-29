@@ -17,8 +17,8 @@ public class Player
             Console.WriteLine("maxHp must be greater than 0. maxHp set to 100f by default.");
             this.maxHp = 100f;
         }
-        else
-            this.maxHp = maxHp;
+        
+        this.maxHp = maxHp;
         this.name = name;
         this.hp = this.maxHp;
     }
@@ -32,10 +32,12 @@ public class Player
     ///<summary>Calculates Player damage.</summary>
     public void TakeDamage(float damage)
     {
-        Console.WriteLine($"{this.name} takes {damage} damage!");
         if (damage < 0f)
-            damage = 0f;
-        float newHp = this.hp - damage;
+        {
+            Console.WriteLine($"{this.name} takes 0 damage!");
+            return;
+        }
+        Console.WriteLine($"{this.name} takes {damage} damage!");
     }
 
     ///<summary>Calculates Player healing.</summary>
@@ -43,7 +45,9 @@ public class Player
     {
         Console.WriteLine($"{this.name} heals {heal} HP!");
         if (heal < 0f)
+        {
             heal = 0f;
-        float newHp = this.hp + heal;
+            return;
+        }
     }
 }
