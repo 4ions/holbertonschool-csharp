@@ -45,11 +45,12 @@ public class Player
     ///<summary>Calculates Player healing.</summary>
     public void HealDamage(float heal)
     {
-        Console.WriteLine($"{this.name} heals {heal} HP!");
         if (heal < 0f)
         {
+            Console.WriteLine($"{name} heals 0 HP!");
             heal = 0f;
             return;
         }
+        Console.WriteLine($"{this.name} heals {heal} HP!");
     }
 }
