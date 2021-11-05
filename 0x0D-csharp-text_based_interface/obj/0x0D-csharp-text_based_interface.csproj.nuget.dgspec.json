@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\InventoryManagement\\InventoryManagement.csproj": {}
+    "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\0x0D-csharp-text_based_interface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\0x0D-csharp-text_based_interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\InventoryManagement\\InventoryManagement.csproj",
-        "projectName": "InventoryManagement",
-        "projectPath": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\0x0D-csharp-text_based_interface.csproj",
+        "projectName": "0x0D-csharp-text_based_interface",
+        "projectPath": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\0x0D-csharp-text_based_interface.csproj",
         "packagesPath": "C:\\Users\\Leovalsan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\InventoryManagement\\obj\\",
+        "outputPath": "C:\\Users\\Leovalsan\\holbertonschool-csharp\\0x0D-csharp-text_based_interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -39,11 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netstandard2.0": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[2.0.3, )",
               "autoReferenced": true
             }
           },
