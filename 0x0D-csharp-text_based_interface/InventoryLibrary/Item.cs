@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 ///<summary>Class Item that inherits from Baseclass</summary>
-public class Item : BaseClass
+class Item : BaseClass
 {
     public string name;
     public string description;
