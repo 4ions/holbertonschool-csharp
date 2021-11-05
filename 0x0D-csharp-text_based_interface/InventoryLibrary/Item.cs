@@ -4,8 +4,8 @@ using System.Collections.Generic;
 ///<summary>Class Item that inherits from Baseclass</summary>
 class Item : BaseClass
 {
-    public string name;
-    public string description;
+    public String name;
+    public String description;
     public float price;
     public List<string> tags;
 
