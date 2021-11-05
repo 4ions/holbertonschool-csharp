@@ -3,4 +3,10 @@ using System;
 public class User : BaseClass
 {
     public string name;
+
+    public User(string name = "default")
+    {
+        this.name = name;
+    }
+
 }
