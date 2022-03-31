@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "jO97uBqUN0RzpoaLDz0nGg4uvKUapyzA6VURM29gl3/Kwqz4wMg1+qq8WIPbG4S4aZC0MpN+J7TKRTCSS7pbSQ==",
+  "success": true,
+  "projectFilePath": "/home/leovalsan/Documents/holberton/holbertonschool-csharp/0x0D-csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj",
+  "expectedPackageFiles": [
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/leovalsan/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
